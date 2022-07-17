@@ -40,3 +40,23 @@
     border-radius: 5px;
     border:none;
 }
+
+.report-section{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fefefe;
+    padding: 30px;
+}
+
+.report-heading{
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+
+.text{
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 15px;
+}
