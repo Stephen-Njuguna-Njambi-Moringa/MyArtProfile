@@ -1,4 +1,4 @@
-# LANDINGPAGE FOR AGRIPLUS.
+# LANDINGPAGE FOR Dairy-app.
 
 This is a landing page for Dairy production company, it is ment to help track the milk prodiction.
 
