@@ -13,6 +13,12 @@ body{
     /* height: 100vh; */
 }
 
+.app-title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
 .input-wrapper{
     width: 70%;
     margin: 0px auto;
