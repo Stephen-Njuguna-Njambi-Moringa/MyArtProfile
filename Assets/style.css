@@ -47,6 +47,7 @@
     background-color: #fefefe;
     padding: 30px;
     display: none;
+    margin-bottom: 20px;
 }
 
 .report-heading{
@@ -60,4 +61,13 @@
     font-size: 20px;
     border-bottom: 1px solid lightgrey;
     padding-bottom: 15px;
+}
+
+/* income calculation section per week/month */
+.income-section{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #e8f8da;
+    padding: 30px;
+    display: none;
 }
