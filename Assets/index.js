@@ -51,7 +51,96 @@
             return sellingPrice * time;
         }
         document.getElementById('inc2').innerHTML=incomeOvertimeMonthly();
+        
+// input value per each month.
+        function incomeOvertimeJan(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 31;
+            return sellingPrice * time;
+        }
+        document.getElementById('jan').innerHTML=incomeOvertimeJan();
 
+        function incomeOvertimeFeb(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 29;
+            return sellingPrice * time;
+        }
+        document.getElementById('feb').innerHTML=incomeOvertimeFeb();
+
+        function incomeOvertimeMar(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 31;
+            return sellingPrice * time;
+        }
+        document.getElementById('mar').innerHTML=incomeOvertimeMar();
+
+        function incomeOvertimeApri(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 30;
+            return sellingPrice * time;
+        }
+        document.getElementById('apr').innerHTML=incomeOvertimeApri();
+
+        function incomeOvertimeMay(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 31;
+            return sellingPrice * time;
+        }
+        document.getElementById('may').innerHTML=incomeOvertimeMay();
+
+        // function incomeOvertimeJun(sellingPrice,time){
+        //     var sellingPrice = incomeOvertime();
+        //     var time = 30;
+            
+        function incomeOvertimeJun(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 31;
+            return sellingPrice * time;
+        }
+        document.getElementById('jun').innerHTML=incomeOvertimeJun();
+
+        function incomeOvertimeJul(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 30;
+            return sellingPrice * time;
+        }
+        document.getElementById('jul').innerHTML=incomeOvertimeJul();
+
+        function incomeOvertimeAug(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 31;
+            return sellingPrice * time;
+        }
+        document.getElementById('aug').innerHTML=incomeOvertimeAug();
+
+        function incomeOvertimeSep(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 30;
+            return sellingPrice * time;
+        }
+        document.getElementById('sep').innerHTML=incomeOvertimeSep();
+
+        function incomeOvertimeOct(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 31;
+            return sellingPrice * time;
+        }
+        document.getElementById('oct').innerHTML=incomeOvertimeOct();
+
+        function incomeOvertimeNov(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 30;
+            return sellingPrice * time;
+        }
+        document.getElementById('nov').innerHTML=incomeOvertimeNov();
+        
+        function incomeOvertimeDec(sellingPrice,time){
+            var sellingPrice = incomeOvertime();
+            var time = 31;
+            return sellingPrice * time;
+        }
+        document.getElementById('dec').innerHTML=incomeOvertimeDec();
+        
         
     })
      
