@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input-section{
+    background-color: cadetblue;
+    width: 100%;
+    height: 100vh;
+}
+
+.input-wrapper{
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group{
+    width: 250px;
+}
+
+.input{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
