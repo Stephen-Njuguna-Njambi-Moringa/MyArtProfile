@@ -25,6 +25,7 @@
         document.getElementById('val3').innerHTML=inputVal3;
         document.getElementById('val4').innerHTML=inputVal4;
         document.getElementById('is').style.display='block';
+        document.getElementById('ms').style.display='block';
         
 
 // Calculate the total production.
